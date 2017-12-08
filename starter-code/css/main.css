@@ -9,17 +9,27 @@ body {
   margin: 0;
 }
 
-
+main {
+  overflow: auto;
+}
 
 .container {
-  background: #1c5380;
+  /*background: #1c5380;*/
   overflow: hidden;
   margin: 7%;
+  position: absolute;
+  top: 50px;
+}
+
+header {
+  height: 300px;
+  position: relative;
 }
 
 .backblue {
   display: block;
-    background-image: url(../images/bgtile.png);
+  background-image: url(../images/bgtile.png);
+
 }
 
 /*westside*/
